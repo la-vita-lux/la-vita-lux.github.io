@@ -5,8 +5,11 @@ import ThreeDView from "@/components/sections/ThreeDView"
 import InsideLights from "@/components/sections/InsideLights"
 
 export default function App() {
+  const baseFromEnv = (import.meta as any).env?.BASE_URL || '/'
+  const normalizedBase = baseFromEnv.startsWith('/') ? baseFromEnv : '/'
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={normalizedBase}>
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<LaVitaHomepage />} />

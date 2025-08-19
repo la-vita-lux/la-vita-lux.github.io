@@ -15,8 +15,8 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
   },
-  // Use relative base so assets load correctly on GitHub Pages project pages
-  base: "./",
+  // Use root base in preview/dev. GH Pages still works because we emit relative asset URLs
+  base: "/",
   server: {
     port: 5173,
     open: true,

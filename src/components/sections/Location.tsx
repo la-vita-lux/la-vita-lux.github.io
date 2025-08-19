@@ -1,4 +1,5 @@
 import React from "react"
+import { publicUrl } from "@/lib/utils"
 import { MapPin } from "lucide-react"
 
 export default function Location() {
@@ -38,7 +39,7 @@ export default function Location() {
             </div>
           </div>
           <div className="relative">
-            <img src="/images/8k-living-room-2.jpeg" alt="Living Room" className="w-full h-auto rounded-lg shadow-2xl" />
+            <img src={publicUrl('/images/8k-living-room-2.jpeg')} alt="Living Room" className="w-full h-auto rounded-lg shadow-2xl" />
           </div>
         </div>
       </div>

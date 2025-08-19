@@ -1,4 +1,5 @@
 import React from "react"
+import { publicUrl } from "@/lib/utils"
 
 export default function BuildingOverview() {
   return (
@@ -6,7 +7,7 @@ export default function BuildingOverview() {
       <div className="grid lg:grid-cols-2">
         <div className="lg:col-span-1 relative">
             <img
-              src="/images/la-vita-hero-shot.png"
+              src={publicUrl('/images/la-vita-hero-shot.png')}
               alt="La Vita Building Rendering"
               className="block w-full h-full object-cover"
             />
