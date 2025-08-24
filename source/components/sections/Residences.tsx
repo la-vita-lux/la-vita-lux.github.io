@@ -2,8 +2,9 @@ import React from "react"
 
 export default function Residences() {
   return (
-    <section id="residences" className="min-h-screen bg-\[#c6c6c6\]">
-      <div className="grid lg:grid-cols-7 h-2/3 min-h-[66vh]">
+    <section id="residences" className="min-h-screen bg-\[#c6c6c6\] relative z-10">
+      <div className="grid lg:grid-cols-7 min-h-[80vh]">
+        
         <div className="lg:col-span-2 flex flex-col justify-center px-8 py-8">
           <div className="mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-2 leading-tight ml-0" style={{ color: "#561616", textShadow: "1px 1px 2px rgba(0,0,0,0.2)"  }}>
@@ -32,7 +33,7 @@ export default function Residences() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 h-1/3 min-h-[34vh]">
+      <div className="grid grid-cols-2 min-h-[50vh]">
         <div className="relative">
           <img
             src="/images/living-room-interior.jpeg"

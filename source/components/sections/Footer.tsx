@@ -17,7 +17,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white">联系我们</h3>
             <div className="space-y-2 text-sm text-slate-300">
               <p>LAVITA.NYC</p>
-              <p>1-888-218-8881</p>
+              <p>001-929-919-7977</p>
               <p>INFO@LAVITA.NYC</p>
             </div>
             <div className="flex space-x-4 pt-2">

@@ -15,7 +15,6 @@ export default function BuildingOverview() {
         <div className="lg:col-span-1 flex flex-col justify-between px-8 pt-0 pb-8 relative" style={{ backgroundColor: "#f9ece2" }}>
           <div className="flex gap-10 md:gap-12 relative">
             <div className="relative">
-              <div className="absolute -inset-x-4 -bottom-6" style={{ backgroundColor: "#ebe1d9", top: "0px"}}></div>
               <div
                 className="text-6xl md:text-7xl font-bold writing-mode-vertical-rl text-orientation-mixed relative z-10"
                 style={{ color: "#561616", textShadow: "2px 2px 4px rgba(0,0,0,0.3)", marginTop: "60px" }}
@@ -25,7 +24,6 @@ export default function BuildingOverview() {
             </div>
 
             <div className="relative">
-              <div className="absolute -inset-x-4 -bottom-20" style={{ backgroundColor: "#ebe1d9", top: "80px"}}></div>
               <div
                 className="text-6xl md:text-7xl font-bold writing-mode-vertical-rl text-orientation-mixed relative z-10"
                 style={{ color: "#561616", textShadow: "2px 2px 4px rgba(0,0,0,0.3)", marginTop: "140px" }}

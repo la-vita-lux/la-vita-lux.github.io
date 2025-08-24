@@ -90,11 +90,11 @@ export default function Navigation({ transparent = false }: NavigationProps) {
                       3D Views
                     </a>
                   </DropdownMenuItem>
-                  <DropdownMenuItem asChild className="hover:bg-[#faece2] focus:bg-[#faece2] text-black hover:text-black focus:text-black">
+                  {/* <DropdownMenuItem asChild className="hover:bg-[#faece2] focus:bg-[#faece2] text-black hover:text-black focus:text-black">
                     <a href="/inside-lights" className="w-full text-black">
                       单元户型图
                     </a>
-                  </DropdownMenuItem>
+                  </DropdownMenuItem> */}
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
@@ -150,9 +150,9 @@ export default function Navigation({ transparent = false }: NavigationProps) {
               <a href="/3d-view" className="block py-2 pl-3 text-base hover:text-amber-500" style={{ color: "#561616" }}>
                 3D Views
               </a>
-              <a href="/inside-lights" className="block py-2 pl-3 text-base hover:text-amber-500" style={{ color: "#561616" }}>
+              {/* <a href="/inside-lights" className="block py-2 pl-3 text-base hover:text-amber-500" style={{ color: "#561616" }}>
                 单元户型图
-              </a>
+              </a> */}
             </div>
             <a onClick={(e) => { e.preventDefault(); handleHomeHashNavigate('#contact') }} href="/#contact" className="block py-2 text-base hover:text-amber-500" style={{ color: "#561616" }}>
               Contact

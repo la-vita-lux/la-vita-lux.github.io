@@ -1,8 +1,8 @@
 import React from "react"
 import Navigation from "@/components/sections/Navigation"
 import Hero from "@/components/sections/Hero"
-import BuildingOverview from "@/components/sections/BuildingOverview"
 import Description from "@/components/sections/Description"
+import DescriptionIntro from "@/components/sections/DescriptionIntro"
 import Residences from "@/components/sections/Residences"
 import Lifestyle from "@/components/sections/Lifestyle"
 import Location from "@/components/sections/Location"
@@ -15,7 +15,7 @@ export default function LaVitaHomepage() {
     <div className="min-h-screen bg-background">
       <Navigation />
       <Hero />
-      <BuildingOverview />
+      <DescriptionIntro />
       <Description />
       <Residences />
       <Lifestyle />
