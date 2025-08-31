@@ -6,7 +6,8 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{
-          backgroundImage: "url('/beautiful-brownstone-buildings-in-new-york-city.png')",
+          backgroundImage:
+            "url('/assets/images/beautiful-brownstone-buildings-in-new-york-city.png')",
         }}
       />
       <div className="relative z-10 container mx-auto px-4">

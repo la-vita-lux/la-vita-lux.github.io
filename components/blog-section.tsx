@@ -6,25 +6,25 @@ const blogPosts = [
     title: "What is HOA? What You Need to Know About Rules and Regulations",
     excerpt:
       "If you live in a newer suburban community or a condominium, you're probably a member of a homeowners association, cooperatives, condominiums, communities...",
-    image: "/modern-suburban-community-with-hoa.png",
+    image: "/assets/images/modern-suburban-community-with-hoa.png",
   },
   {
     title: "Living Trusts",
     excerpt:
       "Estate planners often recommend Living Trusts as an estate planning tool. Living trusts can be particularly useful for contemplating the manner in which to hold...",
-    image: "/legal-documents-and-estate-planning.png",
+    image: "/assets/images/legal-documents-and-estate-planning.png",
   },
   {
     title: "What to Expect During a Home Inspection",
     excerpt:
       "From finding an inspector to dealing with issues that come up during the inspection, here's what you need to know about the home inspection...",
-    image: "/home-inspector-examining-house.png",
+    image: "/assets/images/home-inspector-examining-house.png",
   },
   {
     title: "How to Avoid Capital Gains Tax on a Home Sale",
     excerpt:
       "When your home value goes through the roof, you may be wondering what happens when you sell. Here are tips to help tax liability. Most homeowners are not...",
-    image: "/house-with-money-and-tax-documents.png",
+    image: "/assets/images/house-with-money-and-tax-documents.png",
   },
 ]
 
@@ -38,7 +38,7 @@ export function BlogSection() {
             <Card key={index} className="group cursor-pointer hover:shadow-lg transition-all duration-300">
               <div className="aspect-video overflow-hidden">
                 <img
-                  src={post.image || "/placeholder.svg"}
+                  src={post.image || "/assets/images/placeholder.svg"}
                   alt={post.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

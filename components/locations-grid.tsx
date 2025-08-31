@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card"
 
 const locations = [
-  { name: "Manhattan", image: "/manhattan-skyline-cityscape.png" },
-  { name: "Queens", image: "/queens-bridge-and-waterfront.png" },
-  { name: "Brooklyn", image: "/brooklyn-brownstone-neighborhood.png" },
-  { name: "Nassau", image: "/nassau-county-suburban-homes.png" },
-  { name: "Suffolk", image: "/suffolk-county-coastal-landscape.png" },
-  { name: "Bronx", image: "/bronx-residential-neighborhood.png" },
+  { name: "Manhattan", image: "/assets/images/manhattan-skyline-cityscape.png" },
+  { name: "Queens", image: "/assets/images/queens-bridge-and-waterfront.png" },
+  { name: "Brooklyn", image: "/assets/images/brooklyn-brownstone-neighborhood.png" },
+  { name: "Nassau", image: "/assets/images/nassau-county-suburban-homes.png" },
+  { name: "Suffolk", image: "/assets/images/suffolk-county-coastal-landscape.png" },
+  { name: "Bronx", image: "/assets/images/bronx-residential-neighborhood.png" },
 ]
 
 export function LocationsGrid() {
@@ -22,7 +22,7 @@ export function LocationsGrid() {
             >
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src={location.image || "/placeholder.svg"}
+                  src={location.image || "/assets/images/placeholder.svg"}
                   alt={location.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
