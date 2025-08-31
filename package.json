@@ -8,7 +8,8 @@
     "dev": "next dev -p 3000",
     "build": "next build",
     "preview": "http-server ./out -p 8080 --silent",
-    "deploy": "next build && rm -rf docs && mkdir -p docs && cp -R out/* docs/ && touch docs/.nojekyll && git add docs && (git commit -m 'deploy: update static site (docs/)' --no-verify || true) && git push"
+    "deploy": "next build && rm -rf docs && mkdir -p docs && cp -R out/* docs/ && touch docs/.nojekyll && git add docs && (git commit -m 'deploy: update static site (docs/)' --no-verify || true) && git push",
+    "deploy:root": "next build && cp -R out/* . && touch .nojekyll && git add -A && (git commit -m 'deploy: update static site (root)' --no-verify || true) && git push"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
