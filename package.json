@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "preview": "http-server ./out -p 4173 --silent",
+    "preview": "http-server ./out -p 8080 --silent",
     "deploy": "next build && rm -rf docs && mkdir -p docs && cp -R out/* docs/ && touch docs/.nojekyll && git add docs && (git commit -m 'deploy: update static site (docs/)' --no-verify || true) && git push"
   },
   "dependencies": {
