@@ -16,9 +16,9 @@ const workSans = Work_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Pro Links Realty - Your Trusted Real Estate Partner",
+  title: "PRO Links 房地产 - 您值得信赖的地产伙伴",
   description:
-    "Professional real estate services in Manhattan, Queens, Brooklyn, Nassau, Suffolk, and Bronx. Find your dream home with our expert team.",
+    "为曼哈顿、皇后区、布鲁克林、拿骚县、苏福克县与布朗克斯提供专业房地产服务。与我们的专家团队一起寻找梦想之家。",
   generator: "v0.app",
 }
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${workSans.variable} antialiased`}>
+    <html lang="zh" className={`${inter.variable} ${workSans.variable} antialiased`}>
       <body className="font-sans">{children}</body>
     </html>
   )

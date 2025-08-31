@@ -1,19 +1,19 @@
 import { Card } from "@/components/ui/card"
 
 const locations = [
-  { name: "Manhattan", image: "/assets/images/manhattan-skyline-cityscape.png" },
-  { name: "Queens", image: "/assets/images/queens-bridge-and-waterfront.png" },
-  { name: "Brooklyn", image: "/assets/images/brooklyn-brownstone-neighborhood.png" },
-  { name: "Nassau", image: "/assets/images/nassau-county-suburban-homes.png" },
-  { name: "Suffolk", image: "/assets/images/suffolk-county-coastal-landscape.png" },
-  { name: "Bronx", image: "/assets/images/bronx-residential-neighborhood.png" },
+  { name: "曼哈顿", image: "/assets/images/manhattan-skyline-cityscape.png" },
+  { name: "皇后区", image: "/assets/images/queens-bridge-and-waterfront.png" },
+  { name: "布鲁克林", image: "/assets/images/brooklyn-brownstone-neighborhood.png" },
+  { name: "拿骚县", image: "/assets/images/nassau-county-suburban-homes.png" },
+  { name: "苏福克县", image: "/assets/images/suffolk-county-coastal-landscape.png" },
+  { name: "布朗克斯", image: "/assets/images/bronx-residential-neighborhood.png" },
 ]
 
 export function LocationsGrid() {
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold font-work-sans text-center mb-12">Areas We Serve</h2>
+        <h2 className="text-3xl font-bold font-work-sans text-center mb-12">服务区域</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {locations.map((location) => (
             <Card

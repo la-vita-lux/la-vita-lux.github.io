@@ -4,20 +4,20 @@ import { Search, Heart, Bell } from "lucide-react"
 const services = [
   {
     icon: Search,
-    title: "Unlock Your Search",
-    description: "Unlock the search interface so you can browse homes without restrictions or interruptions.",
+    title: "解锁搜索功能",
+    description: "解锁搜索界面，畅享无任何限制与打扰的看房体验。",
     bgColor: "bg-slate-700",
   },
   {
     icon: Heart,
-    title: "Save Your Favorites",
-    description: "Save your favorite searches and listings to sales. They'll be waiting for you when you return.",
+    title: "收藏您的最爱",
+    description: "保存您喜爱的搜索与房源，随时回来继续查看。",
     bgColor: "bg-orange-500",
   },
   {
     icon: Bell,
-    title: "Get Email Notifications",
-    description: "Get notified when new homes are listed that match your search criteria.",
+    title: "订阅邮件提醒",
+    description: "当出现符合您条件的新房源时，第一时间收到通知。",
     bgColor: "bg-slate-600",
   },
 ]
